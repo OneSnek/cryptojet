@@ -23,6 +23,8 @@ import requests
 #Attaquant lecture server
 #Attaquant administrateur du serveur
 
+#on a le droit de stocker les clés dans le client. Sachant que le client est spécifique au serveur, on peut enlever l'attaquant 1 (man in the middle)
+
 """"
 Man in the middle peut voir le clair, enjeu est l'échange de cle.
 Fichier AES... sans tiers de confiance.
