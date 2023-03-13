@@ -13,3 +13,7 @@ import requests
 #Transmettre clé = Diffie-Hellman
 #tiers de confiance
 #poivre (code source) + sel + mot de passe
+
+#Attaquent Man-in-the-middle
+#Attaquant lecture server
+#Attaquant administrateur du serveur
