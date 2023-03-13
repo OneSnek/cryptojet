@@ -9,3 +9,6 @@ import requests
 #Chffrer & Déchiffrrer vs Décrypter.
 #Bon chiffrage = cle pas obtenable depuis un clair ni un chiffré
 #RSA => 65 537 is convenient
+#RSA + Sha256 = signature électronique
+#Transmettre clé = Diffie-Hellman
+#tiers de confiance
