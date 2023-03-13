@@ -12,3 +12,4 @@ import requests
 #RSA + Sha256 = signature électronique
 #Transmettre clé = Diffie-Hellman
 #tiers de confiance
+#poivre (code source) + sel + mot de passe
