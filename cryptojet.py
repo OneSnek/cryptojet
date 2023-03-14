@@ -41,6 +41,9 @@ import requests
 #On nécessite d'un moyen d'authentification.
 #Diffie Hellman? Charlie peut modifier les peinures publiques mais pas les privées.
 
+#Est-ce que c'est possible de transmettre une Kpub au serveur sans qu'elle soit modifiée?
+#Que peut on faire de mieux?
+
 
 """
 Man in the middle peut voir le clair, enjeu est l'échange de cle.
