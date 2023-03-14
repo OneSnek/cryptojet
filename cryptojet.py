@@ -30,6 +30,8 @@ import requests
 
 """Comment résoudre lorsque l'attaquant peur lire le serveur?"""
 #Lire serveur = lire clé privée?
+#Serveur doit-être ignorant de ses messages?
+#Créer une clé PUB pour chaque utilisateur, ils peuvent la partager sur le server mais C ne gagne rien a la voir.
 
 """"
 Man in the middle peut voir le clair, enjeu est l'échange de cle.
