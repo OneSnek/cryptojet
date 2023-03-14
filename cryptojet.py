@@ -37,15 +37,17 @@ import requests
 #Est-ce viable? / Clé publique pour groupes = identifient?
 
 """Comment résoudre lorsque l'attaquant est administrateur du serveur?"""
-#Les enjeux ne sont pas clairs.
+#Attacker 3 peut substituer les clés, ce qui rend la solution 2 inutile
+#On nécessite d'un moyen d'authentification.
+#Diffie Hellman? Charlie peut modifier les peinures publiques mais pas les privées.
 
 
-""""
+"""
 Man in the middle peut voir le clair, enjeu est l'échange de cle.
 Attacker 2 peut lire le server, décripter dans le server es hors-question.
 Attacker 3 peut substituer des clés, on nécessite d'un moyen d'authentification
 Fichier AES... sans tiers de confiance.
-""""
+"""
 
 #ATTACKERS 1 & 2
 
