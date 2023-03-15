@@ -44,7 +44,7 @@ import requests
 #Est-ce que c'est possible de transmettre une Kpub au serveur sans qu'elle soit modifiée?
 #Que peut on faire de mieux?
 
-#Salt + pepper? Comment implémenter? = hash(passA) + sel(unique par user, storé en BDD) + pivre(source code)
+#Salt + pepper? Comment implémenter? = hash(KpubX) + sel(unique par user et mdp, storé en BDD) + poivre(source code)
 
 
 """
